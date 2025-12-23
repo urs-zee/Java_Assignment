@@ -1,0 +1,15 @@
+This Java assignment covered 10 practical programming tasks ranging from basic data manipulation to database and web integration. I implemented solutions for reading and processing CSV files, converting decimal numbers to binary, storing and searching in HashMaps, interacting with MySQL databases, creating a simple HTTP server, handling HTTP requests, command-line inputs, and building a frontend login page.
+
+During the development, I encountered a few challenges:
+
+File path issues with CSV files: Initially, the CSV files were in a separate folder which caused FileNotFoundException. I resolved this by keeping CSV files in the same folder as the Java source files, ensuring relative paths worked correctly.
+
+JDBC driver configuration: While connecting to the MySQL database, the program initially threw No suitable driver found. This was fixed by downloading the MySQL Connector/J driver and including it in the classpath during compilation and execution.
+
+VS Code run configuration: Using the Run button in VS Code caused issues with relative paths. Switching to terminal-based execution ensured that all file operations worked as expected.
+
+Output file location: To simplify the workflow, all output files were generated in the same folder as the source files, making it easier to verify results.
+
+Overall, this assignment strengthened my understanding of Java fundamentals, file handling, database connectivity, HTTP communication, and frontend integration. It also enhanced my practical problem-solving skills and reinforced the importance of managing dependencies, file paths, and runtime environments.
+
+Outcome: All programs compile and run successfully, producing the expected output across console, files, database queries, and browser interface. The project is structured for clarity and ease of use, ready for submission.
